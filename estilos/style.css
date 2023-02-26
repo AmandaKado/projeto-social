@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    background-image: url("../imagens/fundo-madeira.jpg");
+    background: black url('../imagens/fundo-madeira.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+div#iphone > img {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
 }
